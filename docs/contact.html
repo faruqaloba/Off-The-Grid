@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFF THE GRID - SNKRS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        #contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+
+        #contact h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        .contact-form {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        
+        footer {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer i {
+            margin: 0 5px;
+        }
+        .faq-container {
+            background-color: #f9f9f9;
+            padding: 50px;
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .faq-answer {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="CA2106 - Assignment 2.html">
+                <h1>OFF THE GRID - SNKRS™</h1>
+            </a>
+        </nav>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mens.html">Shop Mens</a>
+        <a href="womens.html">Shop Womens</a>
+        <a href="kids.html">Shop Kids</a>
+        <a href="about.html">About Us</a>
+        <a href="news.html">News</a>
+        <a href="cart.html">Shopping Cart</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><i class="fa fa-map-marker"></i> Location: Dublin, Ireland</p>
+            <p><i class="fa fa-phone"></i> Phone: 089 999 9999</p>
+            <p><i class="fa fa-envelope"></i> Email: offthegrid@mail.dcu.ie</p>
+        </div>
+        <p>Let's get in touch. Send us a message:</p>
+
+        <form class="contact-form" action="/action_page.php" target="_blank">
+            <input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email">
+            <input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject">
+            <input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+        </form>
+    </div>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">What payment methods do you accept?</div>
+            <div class="faq-answer">We accept Visa, Mastercard, PayPal, and direct bank transfers.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How long does shipping take?</div>
+            <div class="faq-answer">Shipping usually takes 3-5 business days depending on your location.</div>
+        </div>
+    </div>
+
+    
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+</body>
+
+</html>
+
