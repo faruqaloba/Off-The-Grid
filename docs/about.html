@@ -10,11 +10,11 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: lightblue;
+            background-color: #f0f8ff; /* Light Sky Blue */
         }
 
         header {
-            background-color: #ddd;
+            background-color: #333;
             padding: 20px 0;
             color: white;
             text-align: center;
@@ -22,16 +22,16 @@
 
         nav {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #333;
+            justify-content: center;
+            background-color: #ddd;
             padding: 10px;
             margin: 10px 0;
         }
 
         nav a {
+            margin: 0 15px;
             text-decoration: none;
-            color: #fff;
+            color: #333;
             font-weight: bold;
             font-size: 16px;
             transition: color 0.3s;
@@ -41,41 +41,11 @@
             color: #007BFF;
         }
 
-        nav form {
-            display: flex;
-            align-items: center;
-        }
-
-        nav input[type="text"] {
-            padding: 8px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
-
-        nav input[type="submit"] {
-            padding: 8px 12px;
-            margin-left: 8px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        nav input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-
-        .basket-icon {
-            color: white;
-            font-size: 24px;
-            margin-right: 20px;
-        }
-
         section {
             padding: 30px;
-            text-align: center;
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         section h2 {
@@ -91,7 +61,7 @@
         .product-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             margin-top: 20px;
         }
 
@@ -102,6 +72,7 @@
             margin: 20px;
             padding: 20px;
             width: 300px;
+            text-align: center;
         }
 
         .product-image {
@@ -122,6 +93,31 @@
             font-size: 16px;
             line-height: 1.4;
             margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .social-icons li {
+            margin: 0 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
         }
     </style>
 </head>
